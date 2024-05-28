@@ -114,5 +114,3 @@ getRandomNumbers = (maxQuestions, rightAnswer) => {
     }
     return numbers;
 }
-
-startGame();
