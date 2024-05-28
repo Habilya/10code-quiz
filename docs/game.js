@@ -104,6 +104,11 @@ choices.forEach((choice) => {
     });
 });
 
+incrementScore = (num) => {
+	score += num;
+	scoreText.innerText = score;
+};
+
 getRandomNumbers = (maxQuestions, rightAnswer) => {
     let numbers = [];
     while (numbers.length < 4) {
