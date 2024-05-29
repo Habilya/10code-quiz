@@ -66,8 +66,8 @@ getNewQuestion = () => {
 	inputAnswer.value = '';
 };
 
-inputAnswer.addEventListener("submit", answerSubmitCallBack, false);
-submitAnswerButton.addEventListener('click', answerSubmitCallBack, false);
+inputAnswer.addEventListener("submit", (e) => { answerSubmitCallBack(e); }, false);
+submitAnswerButton.addEventListener('click', (e) => { answerSubmitCallBack(e); }, false);
 
 answerSubmitCallBack = (e) => {
 	if (!acceptingAnswers) return;
