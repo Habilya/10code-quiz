@@ -4,6 +4,7 @@ const nextQuestionButton = document.getElementById('btn-next-question');
 const answerComment = document.getElementById('lbl-answer-comment');
 const submitAnswerButton = document.getElementById('btn-submit-answer');
 const inputAnswer = document.getElementById('inputAnswer');
+const answerForm = document.getElementById('answerForm');
 
 const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
@@ -66,7 +67,7 @@ getNewQuestion = () => {
 	inputAnswer.value = '';
 };
 
-inputAnswer.addEventListener("submit", (e) => { answerSubmitCallBack(e); }, false);
+answerForm.addEventListener("submit", (e) => { answerSubmitCallBack(e); }, false);
 submitAnswerButton.addEventListener('click', (e) => { answerSubmitCallBack(e); }, false);
 
 answerSubmitCallBack = (e) => {
