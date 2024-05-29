@@ -33,6 +33,14 @@
   background-color: #dc3545;
 }
 
+.correct-label {
+	color: green;
+}
+
+.incorrect-label {
+	color: red;
+}
+
 /* HUD */
 
 #hud {
