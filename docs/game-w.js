@@ -38,14 +38,14 @@ startGame = () => {
     availableQuesions = [...questions];
     getNewQuestion();
 	nextQuestionButton.addEventListener('click', (e) => {
-		answerComment.classList.remove('incorrect-label');
-		answerComment.classList.remove('correct-label');
-		answerComment.innerText = '';
         getNewQuestion();
     });
 };
 
 getNewQuestion = () => {
+	answerComment.classList.remove('incorrect-label');
+	answerComment.classList.remove('correct-label');
+	answerComment.innerText = '';
     nextQuestionButton.style.display = "none";
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
@@ -61,13 +61,15 @@ getNewQuestion = () => {
     currentQuestion = availableQuesions[questionIndex];
     question.innerText = currentQuestion.question;
 
-    acceptingAnswers = true;
+	acceptingAnswers = true;
+	inputAnswer.disabled = false;
 };
 
 submitAnswerButton.addEventListener('click', (e) => {
 	if (!acceptingAnswers) return;
 
 	acceptingAnswers = false;
+	inputAnswer.disabled = true;
 	if (inputAnswer.value === currentQuestion.answer) {
 		answerComment.classList.add('correct-label');
 		answerComment.innerText = 'Correct!';
