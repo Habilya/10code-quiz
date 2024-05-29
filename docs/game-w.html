@@ -35,7 +35,7 @@
                 <form id="answerForm" onsubmit="event.preventDefault(); answerSubmitCallBack();">
                     <input type="text" autocomplete="off" class="form-control" id="inputAnswer" aria-describedby="answerComment" placeholder="Your answer here">
                 </form>
-                <a id="btn-submit-answer" class="btn">Submit</a>
+                <a id="btn-submit-answer" onclick="answerSubmitCallBack();" class="btn">Submit</a>
             </div>
             <div id="next-question" class="flex-center flex-column">
                 <a id="btn-next-question" class="btn">Next</a>

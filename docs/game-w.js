@@ -30,7 +30,7 @@ fetch('/10code-quiz/questions.json')
     });
 
 //CONSTANTS
-const CORRECT_BONUS = 20;
+const CORRECT_BONUS = 15;
 const MAX_QUESTIONS = 100;
 
 startGame = () => {
@@ -67,8 +67,6 @@ getNewQuestion = () => {
 	inputAnswer.value = '';
 };
 
-submitAnswerButton.addEventListener('click', answerSubmitCallBack(), false);
-
 function answerSubmitCallBack(){
 	if (!acceptingAnswers) return;
 
@@ -77,6 +75,7 @@ function answerSubmitCallBack(){
 	if (inputAnswer.value === currentQuestion.answer) {
 		answerComment.classList.add('correct-label');
 		answerComment.innerText = 'Correct!';
+		incrementScore(CORRECT_BONUS);
 	} else {
 		answerComment.classList.add('incorrect-label');
 		answerComment.innerText = `The answer is : ${currentQuestion.answer}`;
