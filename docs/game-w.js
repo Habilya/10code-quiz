@@ -63,6 +63,7 @@ getNewQuestion = () => {
 
 	acceptingAnswers = true;
 	inputAnswer.disabled = false;
+	inputAnswer.value = '';
 };
 
 submitAnswerButton.addEventListener('click', (e) => {
