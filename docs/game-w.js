@@ -69,7 +69,7 @@ getNewQuestion = () => {
 
 submitAnswerButton.addEventListener('click', answerSubmitCallBack(), false);
 
-answerSubmitCallBack = () => {
+function answerSubmitCallBack(){
 	if (!acceptingAnswers) return;
 
 	acceptingAnswers = false;
