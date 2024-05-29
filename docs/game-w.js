@@ -66,7 +66,10 @@ getNewQuestion = () => {
 	inputAnswer.value = '';
 };
 
-submitAnswerButton.addEventListener('click', (e) => {
+inputAnswer.addEventListener("submit", answerSubmitCallBack, false);
+submitAnswerButton.addEventListener('click', answerSubmitCallBack, false);
+
+answerSubmitCallBack = (e) => {
 	if (!acceptingAnswers) return;
 
 	acceptingAnswers = false;
@@ -82,7 +85,7 @@ submitAnswerButton.addEventListener('click', (e) => {
 	setTimeout(() => {
 		nextQuestionButton.style.display = "block";
 	}, 1000);
-});
+};
 
 incrementScore = (num) => {
 	score += num;
