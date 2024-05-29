@@ -30,7 +30,7 @@ fetch('/10code-quiz/questions.json')
     });
 
 //CONSTANTS
-const CORRECT_BONUS = 10;
+const CORRECT_BONUS = 20;
 const MAX_QUESTIONS = 100;
 
 startGame = () => {
