@@ -10,7 +10,7 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 const MAX_HIGH_SCORES = 5;
 
 finalScore.innerText = mostRecentScore;
-questionsDataDisplay.innerText = questionsData;
+questionsDataDisplay.innerText = `Answered correctly: ${questionsData}`;
 
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;
