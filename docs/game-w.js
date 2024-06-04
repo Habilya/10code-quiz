@@ -48,7 +48,8 @@ getNewQuestion = () => {
 	answerComment.classList.remove('correct-label');
 	answerComment.innerText = '';
     nextQuestionButton.style.display = "none";
-    if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+	if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+		localStorage.setItem('questionsData', `${score / CORRECT_BONUS}/${MAX_QUESTIONS}`);
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
 		return window.location.assign('/10code-quiz/end.html');

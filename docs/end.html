@@ -9,27 +9,24 @@
   </head>
   <body>
     <div class="container">
-      <div id="end" class="flex-center flex-column">
-        <h1 id="finalScore"></h1>
-        <form>
-          <input
-            type="text"
-            name="username"
-            id="username"
-            placeholder="username"
-          />
-          <button
-            type="submit"
-            class="btn"
-            id="saveScoreBtn"
-            onclick="saveHighScore(event)"
-            disabled
-          >
-            Save
-          </button>
-        </form>
-        <a class="btn" href="/10code-quiz/">Go Home</a>
-      </div>
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore"></h1>
+            <h3 id="questions-data"></h3>
+            <form>
+                <input type="text"
+                       name="username"
+                       id="username"
+                       placeholder="username" />
+                <button type="submit"
+                        class="btn"
+                        id="saveScoreBtn"
+                        onclick="saveHighScore(event)"
+                        disabled>
+                    Save
+                </button>
+            </form>
+            <a class="btn" href="/10code-quiz/">Go Home</a>
+        </div>
     </div>
     <script src="/10code-quiz/end.js"></script>
   </body>

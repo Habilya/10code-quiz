@@ -46,7 +46,8 @@ startGame = () => {
 getNewQuestion = () => {
     nextQuestionButton.style.display = "none";
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-        localStorage.setItem('mostRecentScore', score);
+		localStorage.setItem('mostRecentScore', score);
+		localStorage.setItem('questionsData', `${score / CORRECT_BONUS}/${MAX_QUESTIONS}`);
         //go to the end page
 		return window.location.assign('/10code-quiz/end.html');
     }
