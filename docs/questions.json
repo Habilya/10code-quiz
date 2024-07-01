@@ -1,134 +1,150 @@
 [
-  {
-    "question": "A l'ecoute",
-    "answer": "10-1"
-  },
-  {
-    "question": "Répéter le message",
-    "answer": "10-2"
-  },
-  {
-    "question": "Affectation / Message annulé",
-    "answer": "10-3"
-  },
-  {
-    "question": "Message compris",
-    "answer": "10-4"
-  },
-  {
-    "question": "Disponible (spécifier lieu)",
-    "answer": "10-5"
-  },
-  {
-    "question": "Non disponible (spécifier le motif)",
-    "answer": "10-0-6"
-  },
-  {
-    "question": "Intervenant en danger immédiat",
-    "answer": "10-0-7"
-  },
-  {
-    "question": "Interception immédiate et imprévue",
-    "answer": "10-0-8"
-  },
-  {
-    "question": "Repas",
-    "answer": "10-09"
-  },
-  {
-    "question": "Message à passer pour aviser de la condition du patient au poste de soin avancé / tente médicale.",
-    "answer": "10-10"
-  },
-  {
-    "question": "Appel téléphonique",
-    "answer": "10-11"
-  },
-  {
-    "question": "Poste d'attente",
-    "answer": "10-12"
-  },
-  {
-    "question": "Message non conforme au protocole",
-    "answer": "10-13"
-  },
-  {
-    "question": "Dernière équipe disponible",
-    "answer": "10-15"
-  },
-  {
-    "question": "En direction (préciser la destination)",
-    "answer": "10-16"
-  },
-  {
-    "question": "Arrivée sur les lieux (préciser les lieux)",
-    "answer": "10-17"
-  },
-  {
-    "question": "Préciser la localisation",
-    "answer": "10-20"
-  },
-  {
-    "question": "Affectation de nature administrative",
-    "answer": "10-23"
-  },
-  {
-    "question": "En direction (urgent)",
-    "answer": "10-30"
-  },
-  {
-    "question": "Donner plus de renseignement",
-    "answer": "10-33"
-  },
-  {
-    "question": "Service incendie (préciser)",
-    "answer": "10-34"
-  },
-  {
-    "question": "Service police/sécurité (préciser)",
-    "answer": "10-35"
-  },
-  {
-    "question": "Demande d'équipement spécialisé (préciser)",
-    "answer": "10-38"
-  },
-  {
-    "question": "Demande d'équipe supplémentaire (préciser type et nombre)",
-    "answer": "10-40"
-  },
-  {
-    "question": "Problème comportement (psychiatrique, alcool, drogue)",
-    "answer": "10-43"
-  },
-  {
-    "question": "Test d'equipement de communication (5-4-3-2-1)",
-    "answer": "10-50"
-  },
-  {
-    "question": "Code prioritaire",
-    "answer": "10-70"
-  },
-  {
-    "question": "Présent sur les ondes",
-    "answer": "10-84"
-  },
-  {
-    "question": "Pause requise (besoin naturel)",
-    "answer": "10-85"
-  },
-  {
-    "question": "Début de disponibilités aux appels",
-    "answer": "10-86"
-  },
-  {
-    "question": "Fin de disponibilités aux appels",
-    "answer": "10-89"
-  },
-  {
-    "question": "Arrêt cardiorespiratoire (code Bleu)",
-    "answer": "10-99"
-  },
-  {
-    "question": "Patient instable",
-    "answer": "10-100"
-  }
+	{
+		"question": "A l'ecoute",
+		"answer": "10-1"
+	},
+	{
+		"question": "Répétez le message",
+		"answer": "10-2"
+	},
+	{
+		"question": "Message annulé",
+		"answer": "10-3"
+	},
+	{
+		"question": "Message compris",
+		"answer": "10-4"
+	},
+	{
+		"question": "Disponible (spécifier lieu)",
+		"answer": "10-5"
+	},
+	{
+		"question": "Non disponible (spécifier le motif)",
+		"answer": "10-0-6"
+	},
+	{
+		"question": "Intervenant en danger immédiat !(spécifier lieu)!",
+		"answer": "10-0-7"
+	},
+	{
+		"question": "Interception immédiate et imprévue",
+		"answer": "10-0-8"
+	},
+	{
+		"question": "Repas",
+		"answer": "10-0-9"
+	},
+	{
+		"question": "Message à passer pour aviser de la condition du patient au poste de soin avancé / tente médicale.",
+		"answer": "10-10"
+	},
+	{
+		"question": "Appel téléphonique",
+		"answer": "10-11"
+	},
+	{
+		"question": "Poste d'attente (position assignée)",
+		"answer": "10-12"
+	},
+	{
+		"question": "Message non conforme au protocole",
+		"answer": "10-13"
+	},
+	{
+		"question": "Dernière équipe disponible",
+		"answer": "10-15"
+	},
+	{
+		"question": "En direction (préciser la destination)",
+		"answer": "10-16"
+	},
+	{
+		"question": "Arrivée sur les lieux (préciser les lieux)",
+		"answer": "10-17"
+	},
+	{
+		"question": "Préciser la localisation",
+		"answer": "10-20"
+	},
+	{
+		"question": "Temps approximatif d’arrivée (ETA)",
+		"answer": "10-22"
+	},
+	{
+		"question": "Affectation de nature administrative",
+		"answer": "10-23"
+	},
+	{
+		"question": "(Urgent) En direction (préciser la destination)",
+		"answer": "10-30"
+	},
+	{
+		"question": "Donner plus de renseignement (âge, sexe, plainte principale (ROH, chute, etc))",
+		"answer": "10-33"
+	},
+	{
+		"question": "Service incendie (préciser)",
+		"answer": "10-34"
+	},
+	{
+		"question": "Service police/sécurité (préciser)",
+		"answer": "10-35"
+	},
+	{
+		"question": "Demande d'équipement spécialisé (préciser)",
+		"answer": "10-38"
+	},
+	{
+		"question": "Demande d'équipe supplémentaire (ou Ambulance) (préciser type et nombre)",
+		"answer": "10-40"
+	},
+	{
+		"question": "Agression sexuelle (information privée)",
+		"answer": "10-42"
+	},
+	{
+		"question": "Problème comportement (psychiatrique, alcool, drogue)",
+		"answer": "10-43"
+	},
+	{
+		"question": "Risque d’infection (ex. Covid)",
+		"answer": "10-46"
+	},
+	{
+		"question": "Personne à mobilité réduite",
+		"answer": "10-49"
+	},
+	{
+		"question": "Test d'equipement de communication (5-4-3-2-1)",
+		"answer": "10-50"
+	},
+	{
+		"question": "Code prioritaire (les autres doivent liberer les ondes)",
+		"answer": "10-70"
+	},
+	{
+		"question": "Présent sur les ondes",
+		"answer": "10-84"
+	},
+	{
+		"question": "Pause requise (besoin naturel)",
+		"answer": "10-85"
+	},
+	{
+		"question": "Début de disponibilités aux appels",
+		"answer": "10-86"
+	},
+	{
+		"question": "Fin de disponibilités aux appels",
+		"answer": "10-89"
+	},
+	{
+		"question": "Arrêt cardiorespiratoire (code Bleu)",
+		"answer": "10-99"
+	},
+	{
+		"question": "Patient instable",
+		"answer": "10-100"
+	}
 ]
