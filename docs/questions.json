@@ -21,19 +21,19 @@
 	},
 	{
 		"question": "Non disponible (spécifier le motif)",
-		"answer": "10-0-6"
+		"answer": "10-06"
 	},
 	{
 		"question": "Intervenant en danger immédiat !(spécifier lieu)!",
-		"answer": "10-0-7"
+		"answer": "10-07"
 	},
 	{
 		"question": "Interception immédiate et imprévue",
-		"answer": "10-0-8"
+		"answer": "10-08"
 	},
 	{
 		"question": "Repas",
-		"answer": "10-0-9"
+		"answer": "10-09"
 	},
 	{
 		"question": "Message à passer pour aviser de la condition du patient au poste de soin avancé / tente médicale.",
@@ -120,7 +120,7 @@
 		"answer": "10-50"
 	},
 	{
-		"question": "Code prioritaire (les autres doivent liberer les ondes)",
+		"question": "Code prioritaire (les autres doivent libérer les ondes)",
 		"answer": "10-70"
 	},
 	{
