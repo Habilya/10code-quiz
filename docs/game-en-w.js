@@ -5,4 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
 	document.getElementById('btn-submit-answer').addEventListener('click', () => {
 		quiz.answerSubmitCallBack();
 	});
+
+	document.getElementById("answerForm").addEventListener("submit", (event) => {
+		event.preventDefault(); // Prevents the form from submitting the usual way
+		quiz.answerSubmitCallBack();
+	});
 });
