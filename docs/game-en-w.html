@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>10Codes Quiz - Play</title>
+    <link rel="stylesheet" href="/10code-quiz/app.css" />
+    <link rel="stylesheet" href="/10code-quiz/game.css" />
+  </head>
+  <body>
+      <div class="container">
+          <div id="game" class="justify-center flex-column">
+              <div id="hud">
+                  <div id="hud-item">
+                      <p id="progressText" class="hud-prefix">
+                          Question
+                      </p>
+                      <div id="progressBar">
+                          <div id="progressBarFull"></div>
+                      </div>
+                  </div>
+                  <div id="hud-item">
+                      <p class="hud-prefix">
+                          Score
+                      </p>
+                      <h1 class="hud-main-text" id="score">
+                          0
+                      </h1>
+                  </div>
+              </div>
+              <h2 id="question">What is the answer to this questions?</h2>
+              <div class="form-group flex-center flex-column">
+                  <h3 id="lbl-answer-comment" class="incorrect-label"></h3>
+                  <form id="answerForm" onsubmit="event.preventDefault(); answerSubmitCallBack();">
+                      <input type="text" autocomplete="off" class="form-control" id="inputAnswer" aria-describedby="answerComment" placeholder="Your answer here">
+                  </form>
+                  <a id="btn-submit-answer" class="btn">Submit</a>
+              </div>
+              <div id="next-question" class="flex-center flex-column">
+                  <a id="btn-next-question" class="btn">Next</a>
+              </div>
+          </div>
+      </div>
+      <script src="/10code-quiz/quiz.js"></script>
+      <script src="/10code-quiz/game-en-w.js"></script>
+  </body>
+</html>

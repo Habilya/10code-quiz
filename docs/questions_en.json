@@ -1,0 +1,150 @@
+[
+	{
+		"question": "Listening",
+		"answer": "10-1"
+	},
+	{
+		"question": "Repeat",
+		"answer": "10-2"
+	},
+	{
+		"question": "Call/Message canceled",
+		"answer": "10-3"
+	},
+	{
+		"question": "Understood/OK",
+		"answer": "10-4"
+	},
+	{
+		"question": "Available (specify your location)",
+		"answer": "10-5"
+	},
+	{
+		"question": "Non available (justify)",
+		"answer": "10-06"
+	},
+	{
+		"question": "First aider in danger !(your precise location)!",
+		"answer": "10-07"
+	},
+	{
+		"question": "Intercepted by a case, you were NOT dispatched to",
+		"answer": "10-08"
+	},
+	{
+		"question": "Meal break",
+		"answer": "10-09"
+	},
+	{
+		"question": "Telephone call",
+		"answer": "10-11"
+	},
+	{
+		"question": "Assigned location",
+		"answer": "10-12"
+	},
+	{
+		"question": "Message not in accordance with protocol",
+		"answer": "10-13"
+	},
+	{
+		"question": "En route (specify location)",
+		"answer": "10-16"
+	},
+	{
+		"question": "Arrived at location (specify location)",
+		"answer": "10-17"
+	},
+	{
+		"question": "Stand-by",
+		"answer": "10-18"
+	},
+	{
+		"question": "Call out to all teams",
+		"answer": "10-19"
+	},
+	{
+		"question": "Specify your exact location",
+		"answer": "10-20"
+	},
+	{
+		"question": "Estimated Time of Arrival (ETA)",
+		"answer": "10-22"
+	},
+	{
+		"question": "Administrative assignement",
+		"answer": "10-23"
+	},
+	{
+		"question": "(Urgent) En route (specify location)",
+		"answer": "10-30"
+	},
+	{
+		"question": "Case short report (age, sex, main complaint)",
+		"answer": "10-33"
+	},
+	{
+		"question": "Fire department (justify)",
+		"answer": "10-34"
+	},
+	{
+		"question": "Police department/Security (justify)",
+		"answer": "10-35"
+	},
+	{
+		"question": "Specialized equipment required (specify)",
+		"answer": "10-38"
+	},
+	{
+		"question": "Need extra team (or Ambulance) (specify)",
+		"answer": "10-40"
+	},
+	{
+		"question": "Sexual assault (private information)",
+		"answer": "10-42"
+	},
+	{
+		"question": "Behavioral problems (psychological, alcohol, drugs)",
+		"answer": "10-43"
+	},
+	{
+		"question": "Risk of infection (ex. Covid)",
+		"answer": "10-46"
+	},
+	{
+		"question": "Escort",
+		"answer": "10-48"
+	},
+	{
+		"question": "Person with reduced mobility",
+		"answer": "10-49"
+	},
+	{
+		"question": "Radio check (5-4-3-2-1)",
+		"answer": "10-50"
+	},
+	{
+		"question": "Priority call (others must observe radio silence)",
+		"answer": "10-70"
+	},
+	{
+		"question": "Request for break (bathroom break)",
+		"answer": "10-85"
+	},
+	{
+		"question": "Start of shift",
+		"answer": "10-86"
+	},
+	{
+		"question": "End of shift",
+		"answer": "10-89"
+	},
+	{
+		"question": "Cardiac arrest (code Blue)(radio silence)",
+		"answer": "10-99"
+	},
+	{
+		"question": "Unstable patient (radio silence)",
+		"answer": "10-100"
+	}
+]
